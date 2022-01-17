@@ -3,3 +3,4 @@ Computer Vision
 - segmentation: polyp, 3D neck tumor
 - detection: car numbers detection
 - generation: gans
+- regression: face landmarks
