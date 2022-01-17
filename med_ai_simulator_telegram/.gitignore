@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.env
+env/
+venv
+.idea
+.env
+data/benign
+data/malignant
+data/normal
+data/glioma_tumor
+data/meningioma_tumor
+data/no_tumor
+data/pituitary_tumor
+results
+CVC-ClinicDB/Ground Truth
+CVC-ClinicDB/Original
+breat_tumor_model.pkl
+densenet_model.pkl
+gradcam_brain.pkl
+gradcam_breat.pkl

@@ -1,0 +1,13 @@
+# paths:
+path_to_data: ''  # directory with images
+path_to_save_dir: '/home/otabek.nazarov/Downloads/hc701/assignment4/made_lr'  # all results (weights, learning curves, etc) will be saved here
+
+# train settings:
+train_batch_size: 12
+val_batch_size: 1
+num_workers: 2  # for example, use a number of CPU cores
+
+lr: 1e-3  # initial learning rate
+n_epochs: 200  # number of training epochs (300 was used in the paper)
+n_cls: 1  # number of classes to predict (background and tumor)
+in_channels: 2  # number of input modalities
